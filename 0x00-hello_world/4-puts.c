@@ -1,10 +1,7 @@
 	#include <stdio.h>
 	/**
-	 * main - Entry point
-	 *
-	 * Description: 'the program prints statement'
-	 *
-	 * Return: Always 0 (success)
+	 * main - Prints statement with puts function
+	 * Return: Always 0 (Success)
 	 */
 	int main(void)
 	{
