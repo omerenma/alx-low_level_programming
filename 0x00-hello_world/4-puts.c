@@ -1,9 +1,10 @@
 	#include <stdio.h>
 	/**
-	 * main -  Entry point
-	 * Description: 'the program prints "Programming is like building a multilingual puzzle"'
+	 * main - Entry point
 	 *
-	 * Return -  Success returns (0)
+	 * Description: 'the program prints statement'
+	 *
+	 * Return: Always 0 (success)
 	 */
 	int main(void)
 	{
