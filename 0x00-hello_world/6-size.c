@@ -6,10 +6,10 @@
  */ 
 int main(void)
 {
-	printf(sizeof(char));
-	printf(sizeof(int));
-	printf(sizeof(long));
-	printf(sizeof(long long));
-	printf(sizeof(float));
-	return (0);
+printf(sizeof(char));
+printf(sizeof(int));
+printf(sizeof(long));
+printf(sizeof(long long));
+printf(sizeof(float));
+return (0);
 }
