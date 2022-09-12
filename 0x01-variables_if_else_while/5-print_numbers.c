@@ -4,7 +4,7 @@
 * Descrition: C program that prints numbers
 * Return: Always 0 (Success)
 */
-int main()
+int main(void)
 {
 	int num = 0;
 
