@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Entry point
  * Description: C program that prints alphabet in new line
 */
 int main(void)
@@ -9,7 +9,7 @@ int main(void)
 
 	while (l <= 'z')
 	{
-		if (l == 'e'|| l == 'q')
+		if (l == 'e' || l == 'q')
 			++l;
 		putchar(l);
 		++l;
