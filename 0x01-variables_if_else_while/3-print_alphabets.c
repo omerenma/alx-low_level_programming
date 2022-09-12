@@ -10,7 +10,7 @@ int main(void)
 	char lower_char = 'a';
 	char upper_char = 'A';
 
-	while (lower_char < 'z')
+	while (lower_char <= 'z')
 	{
 		putchar(lower_char);
 		++lower_char;
