@@ -1,4 +1,4 @@
-#include <stdio.>
+#include <stdio.h>
 /**
  * main - Entry point
  * Description: C program that prints in lowercase. then in uppercase
