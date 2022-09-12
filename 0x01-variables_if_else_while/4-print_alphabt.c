@@ -2,6 +2,7 @@
 /**
  * main - Entry point
  * Description: C program that prints alphabet in new line
+ * Return: Always ) (Success)
 */
 int main(void)
 {
