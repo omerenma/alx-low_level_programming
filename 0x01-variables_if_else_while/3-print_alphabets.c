@@ -13,7 +13,7 @@ int main(void)
 	while (lower_char < 'z')
 	{
 		putchar(lower_char);
-		++ch;
+		++lower_char;
 	}
 
 	while (upper_char <= 'Z')
