@@ -1,2 +1,2 @@
 int main(void);
-putchar
+int putchar;
