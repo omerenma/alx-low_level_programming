@@ -9,13 +9,18 @@
  */
 int _isalpha(int c)
 {
-	char ch;
+	char lower, higher;
+	int result = 0;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (lower = 'a'; lower <= 'z'; lower++)
 	{
-		if (ch == c)
-			return 1;
+		for (higher = 'A'; higher <= 'Z'; higher++)
+		{
+			if(c == lower || c == higher)
+				result = 1;
+		}
+			
 	}
-	return (0);
+	return (result);
 }
 
