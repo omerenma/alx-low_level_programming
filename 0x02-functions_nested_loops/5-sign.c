@@ -9,23 +9,23 @@
 int print_sign(int n)
 {
 	char s;
-	int result = 0;
+	int result;
 
 	for (s = 0; s <= 45; s++)
 	{
 	if (n > s)
 	{
-		return 1;
-		printf("+\n");
+		result = 1;
+		_putchar("+\n");
 	}
 	else if (n == s)
 	{
-		return 0;
+		result = 0;
 		printf("0\n");
 	}
 	else if (n < s)
 	{
-		return -1;
+		result = -1;
 		printf("-\n");
 	}
 	}
