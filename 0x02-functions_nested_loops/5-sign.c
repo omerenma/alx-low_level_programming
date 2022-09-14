@@ -13,15 +13,15 @@ int print_sign(int n)
 
 	for (s = 0; s <= 45; s++)
 	{
-		if (n > s)
-			return 1;
-			printf("+\n");
-		else if (n == s)
-			return 0;
-			printf("0\n");
-		else if (n < s)
-			return -1;
-			printf("-\n");
+	if (n > s)
+		return 1;
+	printf("+\n");
+	else if (n == s)
+		return 0;
+	printf("0\n");
+	else if (n < s)
+		return -1;
+	printf("-\n");
 	}
 	return (result);
 }
