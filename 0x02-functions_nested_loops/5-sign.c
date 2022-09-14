@@ -8,7 +8,7 @@
 */
 int print_sign(int n)
 {
-	char s;
+	int s;
 	int result;
 
 	for (s = 0; s <= 45; s++)
