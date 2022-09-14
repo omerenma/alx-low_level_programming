@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main -Entry point
- * Description: isLower
- * Return: Always 0 (Success)
+ * _islower - C program that checks for lower
  */
 int _islower(int c)
 {
@@ -15,6 +13,6 @@ int _islower(int c)
 		{
 			lower = 1;
 		}
-		return (lower)
+		return (lower);
 	}
 }
