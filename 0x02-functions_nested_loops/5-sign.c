@@ -15,7 +15,7 @@ int print_sign(int n)
 	{
 	if (n > s)
 	{
-		returun 1;
+		return 1;
 		printf("+\n");
 	}
 	else if (n == s)
