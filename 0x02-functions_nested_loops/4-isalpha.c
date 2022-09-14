@@ -2,7 +2,7 @@
 /**
  * _isalpha - C  program that checks for alphabetic character
  * @c: integer
- * Description: The function return 1 if c is a letter, lowercase or uppercase else 0
+ * Description: The function return 1 if c is a letter, lowercase or upper
  * Return: Returns 1 or 0
  *
  *
@@ -16,10 +16,9 @@ int _isalpha(int c)
 	{
 		for (higher = 'A'; higher <= 'Z'; higher++)
 		{
-			if(c == lower || c == higher)
+			if (c == lower || c == higher)
 				result = 1;
 		}
-			
 	}
 	return (result);
 }
