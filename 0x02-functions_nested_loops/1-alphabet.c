@@ -1,10 +1,7 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Description: print_alphabet - utilizes on function to print the alphabet
- * 
- * Return: Always 0 (Success)
+ * print_alphabet - utilizes on the _putchar function to print
+ *		the alphabet a - z
 */
 
 void print_alphabet(void)
