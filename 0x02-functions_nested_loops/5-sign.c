@@ -8,7 +8,6 @@
 */
 int print_sign(int n)
 {
-	int s;
 	int result;
 
 
