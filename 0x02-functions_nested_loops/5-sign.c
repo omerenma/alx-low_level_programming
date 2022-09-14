@@ -11,8 +11,7 @@ int print_sign(int n)
 	int s;
 	int result;
 
-	for (s = 0; s <= 45; s++)
-	{
+
 	if (n > s)
 	{
 		result = 1;
@@ -23,11 +22,11 @@ int print_sign(int n)
 		result = 0;
 		_putchar('-');
 	}
-	else if (n < s)
+	else 
 	{
 		result = -1;
 		_putchar('-');
 	}
-	}
+	
 	return (result);
 }
