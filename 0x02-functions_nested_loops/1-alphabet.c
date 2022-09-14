@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: print_alphabet - utilizes on function to print the alphabet a - z
+ * Description: print_alphabet - utilizes on function to print the alphabet
  * Return: Always 0 (Success)
 */
 void print_alphabet(void)
