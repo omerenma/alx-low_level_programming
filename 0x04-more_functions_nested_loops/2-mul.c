@@ -1,11 +1,13 @@
 #include "main.h"
 /**
  * mul: multiple int
- * @a: inte
+ * @a: a function that multiplies to num
  * @b: int
  * Return: Always 0
 */
 int mul(int a, int b)
 {
+	int a, b;
+
 	return (a * b);
 }
