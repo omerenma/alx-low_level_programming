@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * mul: multiple int
+ * mul - multiple int
  * @a: a function that multiplies to num
  * @b: int
  * Return: Always 0
