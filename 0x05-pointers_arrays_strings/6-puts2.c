@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * puts2 - function to every other character
+ * @str: input string
+ * Return: Nothing
+ *
+ */
 void puts2(char *str)
 {
 	int len = 0, i = 0;
