@@ -1,11 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strspn - a function that gets the length of a prefix substring.
  * @s: input string
  * @accept: input char with to locate into string s
  * Return: returns pointer to c position
  */
-unsigned int _strspn(cha *s, char *accept)
+unsigned int _strspn(char *s, char *accept)
 {
 	int count = 0, flag;
 	char *start = accept;
