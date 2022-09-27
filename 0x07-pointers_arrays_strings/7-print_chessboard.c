@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * print_chessboard - a function that prints a chessbpard
  * @a: an arry input to print
@@ -18,9 +17,11 @@ void print_chessboard(char (*a)[8])
 		{
 			j = i;
 			_putchar('\n');
-			i++;
 		}
-		_putchar('\n');
+
+		_putchar(a[i / 8][i -j]);
+		i++;
 	}
+	_putchar('\n');
 
 }
