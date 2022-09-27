@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
  * _strstr - a function that locates a substring
  * @haystack: input string to search in
@@ -24,7 +22,7 @@ char *_strstr(char *haystack, char *needle)
 
 		if (*needle == '\0')
 			return (haystack);
-		haystack = startn + 1;
+		haystack = starth + 1;
 
 	}
 	return (NULL);
