@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 /**
  * _strspn - a function that gets the length of a prefix substring.
  * @s: input string
