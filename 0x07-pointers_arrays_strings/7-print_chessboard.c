@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_chessboard - a function that prints a chessbpard
  * @a: an arry input to print
