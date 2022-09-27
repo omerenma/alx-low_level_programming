@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * _strpbrk - function to search for any set of byte in a string
  * @s: input string
@@ -6,7 +7,7 @@
  * Return: returns a pointer to the byte in sthat matches one
  * of the bytes in accept or NULL if no such byte is found
  */
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	char *start = accept;
 
